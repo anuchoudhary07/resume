@@ -1,20 +1,152 @@
-body {
-    background-color: #eaf6f6;
-}
-
-hr {
-    border-style: dotted none none none;
-    border-color: grey;
-    border-width: 7px;
-    width: 7%;
-}
-
-h3,
-h1,
-h2 {
-    color: #66bfbf;
-}
-
-div {
-    background-color: whitesmoke;
-}
+            body {
+                background-color: #252a34;
+                color: #eeeeee;
+                margin: 0;
+                text-align: center;
+                font-family: 'Merriweather', serif;
+                line-height: 2;
+            }
+            
+            hr {
+                border: dotted grey 6px;
+                border-bottom: none;
+                width: 4%;
+                margin: 100px auto;
+            }
+            
+            h3,
+            h1,
+            h2 {
+                /*color: #eeeeee;*/
+                background-color: #f89f83;
+                font-family: 'Montserrat', sans-serif;
+                background-image: conic-gradient(#bc6ea3, #f89f83);
+                background-image: linear-gradient(#bc6ea3, #f89f83);
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -moz-text-fill-color: transparent;
+            }
+            
+            h2 {
+                margin-bottom: 40px;
+            }
+            
+            h3 {
+                margin-top: 30px;
+            }
+            
+            h1 {
+                /*font-family: 'Sacramento', cursive;*/
+                font-family: 'Amatic SC', cursive;
+                letter-spacing: 4px;
+                font-size: 4.5em;
+                line-height: 120%;
+                margin: 50px auto 50px auto;
+            }
+            
+            p {
+                font-weight: normal;
+            }
+            
+            .about {
+                height: 750px;
+                position: relative;
+                top: 300px;
+            }
+            
+            .contact {
+                position: relative;
+                top: 100px;
+                right: 5px;
+            }
+            
+            .education {
+                position: relative;
+                top: 100px;
+            }
+            
+            .skills {
+                position: relative;
+                top: 200px;
+            }
+            
+            .projects {
+                position: relative;
+                top: 300px;
+                width: 50%;
+                margin: auto;
+            }
+            
+            .achievements {
+                position: relative;
+                top: 400px;
+            }
+            
+            .languages {
+                position: relative;
+                top: 500px;
+            }
+            
+            .achievements-1 {
+                width: 60%;
+                margin: auto;
+                text-align: left;
+            }
+            
+            .mart {
+                margin-right: 275px;
+            }
+            
+            .table {
+                width: 50%;
+                position: relative;
+                margin: auto 40%;
+                text-align: left;
+            }
+            
+            .table-skills {
+                width: 30%;
+                position: relative;
+                margin: auto;
+                text-align: left;
+            }
+            
+            .table-languages {
+                width: 50%;
+                margin: auto 650px auto 670px;
+                text-align: left;
+            }
+            
+            .contact {
+                padding-bottom: 50px;
+            }
+            
+            .btn {
+                background: #ad477e;
+                background-image: -webkit-linear-gradient(top, #ad477e, #7499b0);
+                background-image: -moz-linear-gradient(top, #ad477e, #7499b0);
+                background-image: -ms-linear-gradient(top, #ad477e, #7499b0);
+                background-image: -o-linear-gradient(top, #ad477e, #7499b0);
+                background-image: linear-gradient(to bottom, #ad477e, #7499b0);
+                -webkit-border-radius: 8;
+                -moz-border-radius: 8;
+                border-radius: 8px;
+                text-shadow: 1px 1px 3px #666666;
+                font-family: 'Merriweather', serif;
+                color: #ffffff;
+                font-size: 20px;
+                padding: 10px 20px 10px 20px;
+                text-decoration: none;
+            }
+            
+            .btn:hover {
+                background: #bcc6cc;
+                background-image: -webkit-linear-gradient(top, #bcc6cc, #4b718a);
+                background-image: -moz-linear-gradient(top, #bcc6cc, #4b718a);
+                background-image: -ms-linear-gradient(top, #bcc6cc, #4b718a);
+                background-image: -o-linear-gradient(top, #bcc6cc, #4b718a);
+                background-image: linear-gradient(to bottom, #bcc6cc, #4b718a);
+                text-decoration: none;
+            }
+            
