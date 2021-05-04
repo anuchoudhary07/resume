@@ -52,6 +52,7 @@ p {
 }
 
 .about {
+    margin-top: 200px;
     height: auto;
     /*margin: 300px auto 250px auto;*/
     position: relative;
@@ -151,13 +152,14 @@ a:hover {
 }
 
 .ed-1 {
-    width: 50%;
+    width: 47%;
     background-color: #222;
     border: 1px solid #222;
     position: relative;
     border-radius: 20px;
-    margin: 2%;
-    padding: 1.5em;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding: 1em;
 }
 
 .ed-2 {
@@ -166,19 +168,20 @@ a:hover {
     border: 1px solid #222;
     position: relative;
     border-radius: 20px;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-bottom: 2%;
-    padding: 1.5em;
+    padding: 1em;
 }
 
 .ed-3 {
-    width: 55%;
+    width: 50%;
     background-color: #222;
     border: 1px solid #222;
     position: relative;
-    margin-left: 40%;
+    margin-left: 45%;
     border-radius: 20px;
-    padding: 1.5em;
+    padding: 1em;
+    margin-bottom: 250px;
 }
 
 .skills {
