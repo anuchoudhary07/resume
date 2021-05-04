@@ -75,10 +75,11 @@ p {
     text-align: left;
 }
 
-.projects {
+.proj {
     width: 50%;
     position: relative;
     margin-left: 25%;
+    text-align: left;
 }
 
 
@@ -197,7 +198,8 @@ a:hover {
 }
 
 .achievements,
-.contact {
+.contact,
+.projects {
     text-align: centre;
     border: 1px solid #222;
     position: relative;
